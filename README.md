@@ -59,11 +59,14 @@
 
 ---
 
-## Quick Install
+## Quick Run
 
 ```
-conda env create -f requirements.yaml # For conda env (preferred)
-pip install -r requirements.txt # For python env
+conda env create -f requirements.yaml # Install for conda env (preferred)
+pip install -r requirements.txt # Install for python env
+
+# activate the bampolyp environment, and then:
+python bampolyp.py
 ```
 
 ## 📚 Citation
