@@ -69,6 +69,8 @@ pip install -r requirements.txt # Install for python env
 python bampolyp.py
 ```
 
+If you want to run it on Google Colab, you can feel free to use the ipynb file.
+
 ## 📚 Citation
 
 If you find **BAMPolyp** useful in your research, please cite our paper:
