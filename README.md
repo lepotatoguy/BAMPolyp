@@ -18,7 +18,7 @@
 **BAMPolyp** is a lightweight yet powerful deep learning architecture for the **segmentation of gastrointestinal (GI) polyps** from colonoscopic images. The core idea is to **embed a Bi-Axial Mamba bottleneck** into a U-Net-style segmentation pipeline to bridge **local boundary precision** and **global contextual coherence** — crucial for high-accuracy diagnosis support systems.
 
 
-![Bi-Axial Mamba Mechanism](bam_img.PNG)
+![Bi-Axial Mamba Mechanism](photos/bam_img.PNG)
 
 
 ---
@@ -49,7 +49,7 @@
 
 ## 🏗️ Architecture
 
-![Overall Architecture](architecture_img.PNG)
+![Overall Architecture](photos/architecture_img.PNG)
 
 **Architecture Summary**:
 - Encoder: **EfficientNet-B0**
@@ -59,6 +59,12 @@
 
 ---
 
+## Quick Install
+
+```
+conda env create -f requirements.yaml # For conda env (preferred)
+pip install -r requirements.txt # For python env
+```
 
 ## 📚 Citation
 
